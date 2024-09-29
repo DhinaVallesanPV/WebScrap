@@ -1,0 +1,20 @@
+1. Approach to Solution: 
+
+	* The solution includes two Python scripts: one for data extraction ('EXTRACTION.py') and one for data analysis ('ANALYSIS.py').
+   	* In the extraction script ('EXTRACTION.py'), the BeautifulSoup library is used to scrape article titles and texts from URLs provided in an input Excel file ('Input.xlsx'). The extracted data is saved as a CSV file ('extracted_articles.csv').
+   	* The NLTK library is used in the analysis script ('ANALYSIS.py') to perform text analysis tasks such as sentiment analysis, readability score calculation, and linguistic feature extraction. The extracted article texts are read from the CSV file, and several metrics are calculated for each piece. Finally, the computed metrics are saved in another CSV file ('output_variables.csv').
+
+
+2.Running the.py file to produce output:
+
+       * To run the EXTRACTION.py file, you must have Python installed on your system, as well as the following libraries: pandas, requests, beautifulsoup4, and openpyxl. If you haven't already, install these libraries using pip: pip install pandas requests beautifulsoup4 openpyxl.
+       * Once the dependencies are installed, you may start the script by typing python EXTRACTION.py into your terminal or command line.
+       * Similarly, in order to run the ANALYSIS.py file, you must have Python installed, as well as the essential libraries, pandas and nltk. You can install nltk by typing pip install nltk, and then use nltk.download() to obtain the necessary NLTK data.
+       * After installing the requirements, run the script by typing python ANALYSIS.py.
+
+
+
+3.Dependencies Required:
+
+       * For EXTRACTION.py: pandas, requests, beautifulsoup4, and openpyxl.
+       * For ANALYSIS.py, use pandas and nltk.
